@@ -12,18 +12,33 @@ Questo progetto riguarda l'elaborato di Assembly per il corso di Architettura de
 
 ## Come Eseguire il Programma
 
-1. Apri il terminale.
-2. Naviga fino alla cartella del progetto:
+1. **Ambiente di Sviluppo**:  
+   Per eseguire questo progetto, è consigliato utilizzare un sistema operativo Linux o una macchina virtuale Linux. Se non hai accesso a una macchina virtuale o a Linux, puoi comunque provare a far funzionare il progetto su un sistema diverso, ma la compilazione e l'esecuzione potrebbero non funzionare come previsto.
 
-   cd Desktop/uni/1_anno/architettura\ degli\ elaboratori/asm/asm_elaborato
+2. **Compilazione su Linux o Mac (con strumenti di sviluppo installati)**:  
+   Se stai usando Linux o hai un ambiente virtuale con Linux, esegui i seguenti comandi:
 
-3. Esegui il comando `make` per compilare il programma:
+   1. Apri il terminale.
+   2. Naviga fino alla cartella del progetto:
+   
+      ```bash
+      cd /percorso/della/cartella/asm_elaborato
+      ```
 
-   make
+   3. Esegui il comando `make` per compilare il programma:
+   
+      ```bash
+      make
+      ```
 
-4. Una volta compilato, esegui il programma con il comando:
+   4. Una volta compilato, esegui il programma con il comando:
+   
+      ```bash
+      ./bin/elaborato
+      ```
 
-   ./bin/elaborato
+3. **Funzionalità**:  
+   La funzionalità di questo progetto è equivalente a quella in C. Se preferisci, puoi utilizzare il programma in C invece di quello in Assembly, ma la logica e i risultati finali saranno gli stessi.
 
 ## Dettagli di Compilazione
 
@@ -34,4 +49,5 @@ Questo progetto riguarda l'elaborato di Assembly per il corso di Architettura de
 
 Per rimuovere i file generati (file oggetto e binari), esegui:
 
+```bash
 make clean
